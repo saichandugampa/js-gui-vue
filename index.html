@@ -26,6 +26,8 @@
   <!-- Vue component styles -->
   <link href="components/adder/adder.css" rel="stylesheet">
   <link href="components/subtracter/subtracter.css" rel="stylesheet">
+  <link href="components/multiplier/multiplier.css" rel="stylesheet">
+  <link href="components/division/division.css" rel="stylesheet">
 
 </head>
 
@@ -79,6 +81,54 @@
         <h3 class="mt-2">{{difference}}</h3>
       </article>
 
+      <article id="multiplier" class="col-md-4 ">
+        <h2>It supports Databinding!</h2>
+        <p>This is component multiplies!</p>
+
+        <fieldset class="mt-2">
+          <label for="guest">Enter your name (2 to 20 characters):</label>
+          <input v-model="guest" id="guest" type="text" minlength="2" maxlength="20">
+        </fieldset>
+
+        <fieldset class="mt-2">
+          <label for="numberOne">Enter first number (1 to 100):</label>
+          <input v-model="numberOne" id="numberOne" type="number" min="1" max="100">
+          <span id="firstWarning" class="text-danger"></span>
+        </fieldset>
+
+        <fieldset class="mt-2">
+          <label for="numberTwo">Enter second number (1 to 100):</label>
+          <input v-model="numberTwo" id="numberTwo" type="number" min="1" max="100">
+          <span id="secondWarning" class="text-danger"></span>
+        </fieldset>
+
+        <h3 class="mt-2">{{answer}}</h3>
+      </article>
+      <article id="divide" class="col-md-4 ">
+        <h2>Vue uses Virtual DOM!</h2>
+        <p>This is component divides!</p>
+
+        <fieldset class="mt-2">
+          <label for="guest">Enter your name (2 to 20 characters):</label>
+          <input v-model="guest" id="guest" type="text" minlength="2" maxlength="20">
+        </fieldset>
+
+        <fieldset class="mt-2">
+          <label for="number1">Enter first number (1 to 100):</label>
+          <input v-model="number1" id="number1" type="number" min="1" max="100">
+          <span id="firstWarning" class="text-danger"></span>
+        </fieldset>
+
+        <fieldset class="mt-2">
+          <label for="number2">Enter second number (1 to 100):</label>
+          <input v-model="number2" id="number2" type="number" min="1" max="100">
+          <span id="secondWarning" class="text-danger"></span>
+        </fieldset>
+
+        <h3 class="mt-2">{{ans}}</h3>
+      </article>
+
+
       <article class="col-md-4 ">
         <h2>Build tools would help us combine HTML files</h2>
         <p>It's nice to start without having to add them, so everything goes in this one HTML file. </p>
@@ -128,6 +178,8 @@
 
   <script src="components/adder/adder.js"></script>
   <script src="components/subtracter/subtracter.js"></script>
+  <script src="components/multiplier/multiplier.js"></script>
+  <script src="components/division/division.js"></script>
 </body>
 
 </html>
