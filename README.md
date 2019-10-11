@@ -1,13 +1,13 @@
 # js-gui-vue
 
-> JavaScript is a great language for writing and testing quick apps with user interaction.
->
+
+
 > Vue.js is an easy addition that enables two-way data binding (immediate updates are easy and no more 'document.getElementById')
 
 ## Links
 
-- [Demo](https://karanamvijaykumar.github.io/js-gui-vue/)
-- [Source](https://github.com/KaranamVijayKumar/js-gui-vue)
+- [Demo](https://mprogers.github.io/js-gui-vue/)
+- [Source](https://github.com/mprogers/js-gui-vue)
 
 ## Requirements
 
@@ -80,6 +80,19 @@ const adder = new Vue({
 - [HTML Validator](https://validator.w3.org/)
 - [JavaScript Standard Style Validator](https://standardjs.com/demo.html)
 - [Vue.js JavaScript framework CDN](https://vuejs.org/v2/guide/installation.html) - small, incrementally-adoptable framework for JavaScript user interfaces
+
+## Expanded Examples
+
+### Digital Clock using Vue.js
+- [Demo](https://nandinidoppalapudi.github.io/js-gui-vue/)
+- [Source](https://github.com/nandinidoppalapudi/js-gui-vue)
+
+### Vue Components for Multiplication and Division
+- [Source](https://github.com/KaranamVijayKumar/js-gui-vue)
+- [Demo](https://karanamvijaykumar.github.io/js-gui-vue/)
+
+
+
 
 ## See Also
 
